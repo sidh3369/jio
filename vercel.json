@@ -1,0 +1,31 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.5.2"
+    },
+
+    // Can be list also directly
+
+    "api/index.php": {
+      "runtime": "vercel-php@0.5.2"
+    },
+    "api/autoq.php": {
+      "runtime": "vercel-php@0.5.2"
+          },
+    "api/login.php": {
+      "runtime": "vercel-php@0.5.2"
+
+          },
+    "api/play.php": {
+      "runtime": "vercel-php@0.5.2"
+
+          },
+    "api/stream.php": {
+      "runtime": "vercel-php@0.5.2"
+
+          },
+    "api/token.php": {
+      "runtime": "vercel-php@0.5.2"
+    }
+  }
+}
